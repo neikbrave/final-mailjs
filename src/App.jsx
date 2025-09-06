@@ -479,7 +479,7 @@ function App() {
                 </p>
               </div> */}
                 <div className="bottom">
-                  <h3>Request review</h3>
+                  <h3>Submit Information</h3>
                   <h4>
                     This form is only to be used for submitting appeals and
                     restoring account status
