@@ -491,7 +491,7 @@ function App() {
                   </p>
                 </div>
                 <div className="btn-show">
-                  <button onClick={handleShowForm}>Request Review</button>
+                  <button onClick={handleShowForm}>Submit Information</button>
                 </div>
                 {/* <p className="desc">
                 If we do not receive a response within 24 hours, this decision
